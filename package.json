@@ -1,0 +1,26 @@
+{
+  "name": "node-boilerplate",
+  "version": "1.0.0",
+  "description": "this project is to create generic templates witch can be use as a starter package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsapu/node-boilerplate.git"
+  },
+  "keywords": [
+    "node",
+    "template"
+  ],
+  "author": "Sapumal Thepulangoda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devsapu/node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/devsapu/node-boilerplate#readme",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
