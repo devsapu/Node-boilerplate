@@ -48,4 +48,15 @@ exports.login = async (req, res) => {
     res.status(500).json({ message: err.message });
   }
 };
+exports.getUser = async (req, res) => {
+  console.log('req===>', req.user)
+  const { id } = req.user;
+  
+  try {
+    const user = await userService.getUserById(id);
+    res.json(user);
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+};
 
